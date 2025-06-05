@@ -1,11 +1,13 @@
+let Name: string = "Manjitha";
+let age: number = 24;
+let isStudent: boolean = true;
 
-class Person {
-    constructor (public name: string , private age: number){}
+let hobbies: string[] = ["Coding", "Reading", "Volley Ball", "Cricket"];
+let marks: number[] = [90,87,98];
 
-    greet(){
-        console.log(`Hello I am ${this.name} and I am ${this.age} years old.`);
-    }
-}
+let user : {name: string, age: number | string} = {
+    name: "Manjitha Kaluarachichi",
+    age: 24 + " years old"
+};
 
-const P = new Person ("Manjitha",22);
-P.greet();
+console.log(Name, age, isStudent, hobbies, marks, user);
