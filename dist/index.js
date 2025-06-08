@@ -56,3 +56,22 @@ function printEvenNumbers(numbers) {
     }
 }
 printEvenNumbers([10, 20, 21, 23, 24, 50]);
+function calculateAverage(marks) {
+    let total = 0;
+    for (let mark of marks) {
+        total += mark;
+    }
+    return total / marks.length;
+}
+let avg = calculateAverage([90, 69, 70, 85, 55]);
+console.log("Average Marks:", avg);
+function countPassedStudent(marks) {
+    let count = 0;
+    for (let mark of marks) {
+        if (mark >= 50) {
+            count++;
+        }
+    }
+    return count;
+}
+console.log("Passed Students:", countPassedStudent([50, 60, 30, 43, 69, 99, 65, 22]));
