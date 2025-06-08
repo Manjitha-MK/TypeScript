@@ -48,3 +48,11 @@ while (i <= 5) {
 for (let hobby of hobbies) {
     console.log("Hobby:", hobby);
 }
+function printEvenNumbers(numbers) {
+    for (let num of numbers) {
+        if (num % 2 === 0) {
+            console.log("Even:", num);
+        }
+    }
+}
+printEvenNumbers([10, 20, 21, 23, 24, 50]);
