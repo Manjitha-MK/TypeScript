@@ -45,3 +45,6 @@ while (i <= 5) {
     console.log("While loop number:", i);
     i++;
 }
+for (let hobby of hobbies) {
+    console.log("Hobby:", hobby);
+}

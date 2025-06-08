@@ -55,4 +55,6 @@ while(i<=5){
     i++;
 }
 
-
+for (let hobby of hobbies){
+    console.log("Hobby:", hobby)
+}
