@@ -10,4 +10,9 @@ let user : {name: string, age: number | string} = {
     age: 24 + " years old"
 };
 
+function multiply(a: number, b: number): number{
+    return a * b ;
+}
+
 console.log(Name, age, isStudent, hobbies, marks, user);
+console.log("multiply: ",multiply(3,4));

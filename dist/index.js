@@ -8,4 +8,8 @@ let user = {
     name: "Manjitha Kaluarachichi",
     age: 24 + " years old"
 };
+function multiply(a, b) {
+    return a * b;
+}
 console.log(Name, age, isStudent, hobbies, marks, user);
+console.log("multiply: ", multiply(3, 4));
