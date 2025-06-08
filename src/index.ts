@@ -7,7 +7,7 @@ let marks: number[] = [90,87,98];
 
 let user : {name: string, age: number | string} = {
     name: "Manjitha Kaluarachichi",
-    age: 24 + " years old"
+    age: "24 years old"
 };
 
 function multiply(a: number, b: number): number{
@@ -28,4 +28,20 @@ console.log(Name, age, isStudent, hobbies, marks, user);
 console.log("multiply:",multiply(3,4));
 console.log("user:",userInfo[0], "Age:",userInfo[1]);
 console.log("My role:",myRole);
+
+
+let score: number = 86;
+
+if(score >= 90){
+    console.log("Grade: A");
+}
+else if(score >= 75){
+    console.log("Grade: B");
+}
+else if(score >= 60){
+    console.log("Grade C");
+}
+else{
+    console.log("Grade F")
+}
 
